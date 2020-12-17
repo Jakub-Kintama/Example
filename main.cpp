@@ -7,3 +7,11 @@ int main(){
 
     return 0;
 }
+
+int firstDigit(int n) 
+{ 
+    while (n >= 10)  
+        n /= 10; 
+    
+    return n; 
+}
