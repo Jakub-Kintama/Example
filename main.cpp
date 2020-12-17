@@ -1,12 +1,14 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int a, b;
-    a = b;
-
-    return 0;
-}
+int main() 
+{ 
+    int n;
+    cin >> n; 
+    cout << firstDigit(n) << " " 
+        << lastDigit(n) << endl; 
+    return 0; 
+} 
 
 int firstDigit(int n) 
 { 
