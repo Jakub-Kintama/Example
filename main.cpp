@@ -15,3 +15,8 @@ int firstDigit(int n)
     
     return n; 
 }
+
+int lastDigit(int n) 
+{ 
+    return (n % 10); 
+} 
